@@ -1,0 +1,86 @@
+:root {
+    --header-bg-color: white;
+    --header-nav-bg-color: white;
+    --header-nav-h1-a-color: black;
+
+    --header-out-put-container-bg-color: white;
+    --header-out-put-container-color: black;
+
+    --main-bg-color: rgb(233, 233, 233);
+    --main-button-container-bg-color: rgb(233, 233, 233);
+
+    --button-bg-color: rgb(233, 233, 233);
+    --button-color: black;
+    --button-box-shadow: rgb(220, 114, 255);
+    --button-hover-box-shadow: rgb(179, 22, 232);
+    --button-hover-color: rgb(179, 22, 232);
+
+    --operators-bg-color: rgb(18, 124, 253);
+    --operators-color: white;
+
+    --operators-box-shadow-color: rgb(220, 114, 255);
+    --operators-box-shadow-hover-color:rgb(179, 22, 232);
+    --operators-hover-color: rgb(253, 164, 255);
+
+}
+
+
+
+
+
+/* ======Light Mode Style======= */
+#light-mode>header {
+    background: var(--header-bg-color);
+}
+
+#light-mode>header>nav {
+    background: var(--header-nav-bg-color);
+}
+
+#light-mode>header>nav>h1,
+a {
+    color: var(--header-nav-h1-a-color);
+}
+
+#light-mode>header>nav>a {
+    color: var(--header-nav-h1-a-color);
+}
+
+#light-mode>header>.out-put-container {
+    background: var(--header-out-put-container-bg-color);
+    color: var(--header-out-put-container-color);
+}
+
+#light-mode>main {
+    background: var(--main-bg-color);
+}
+
+#light-mode>main>.button-container {
+    background: var(--main-button-container-bg-color);
+}
+
+#light-mode>main>.button-container>.button-rows>button {
+    background: var(--button-bg-color);
+    color: var(--button-color);
+    box-shadow: -.1px 1px 1px 1px var(--button-box-shadow);
+}
+
+#light-mode>main>.button-container>.button-rows>button:hover {
+    box-shadow: -.1px -1px 1px 1px var(--button-hover-box-shadow);
+    color: var(--button-hover-color);
+    cursor: pointer;
+}
+
+#light-mode>main>.button-container>.button-rows>.operator {
+    background: var(--operators-bg-color);
+    color: var(--operators-color);
+    box-shadow: none;
+    box-shadow: -.1px 1px 1px 1px var(--operators-box-shadow-color);
+    color: var(--operators-color);
+}
+
+#light-mode>main>.button-container>.button-rows>.operator:hover {
+    color: var(--operators-hover-color);
+    box-shadow: none;
+    box-shadow: -.1px -1px 1px 1px var(--operators-box-shadow-hover-color);
+}

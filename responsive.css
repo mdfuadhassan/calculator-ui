@@ -1,0 +1,110 @@
+@media screen and (max-width: 330px) {
+    body {
+        min-width: 220px;
+        overflow: hidden;
+    }
+
+    main {
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (min-width: 810px) {
+    body {
+        margin: auto;
+        max-width: 810px;
+        max-height: 629px;
+        padding: 20px;
+    }
+
+    .container {
+        box-shadow: 1px 1px 5px 2px rgb(171, 170, 170);
+        border-radius: 5px;
+    }
+
+    .container>header {
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container>header>nav {
+        padding: 5%;
+        font-size: 1.5rem;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container>header>nav>h1 {
+        font-size: 1.8rem;
+    }
+
+    .container>header>nav>a {
+        font-size: 1.8rem;
+    }
+
+    header {
+        height: 40%;
+    }
+
+    .container>header>.out-put-container {
+        height: 70%;
+        padding: 5px 30px;
+    }
+
+    main {
+        height: 60%;
+        border-radius: 0 0 5px 5px;
+    }
+
+    main>.button-container {
+        border-radius: 0 0 5px 5px;
+
+    }
+
+    main>.button-container>.button-rows {
+        gap: 10%;
+    }
+
+    main>.button-container>.button-rows>button {
+        height: 40px;
+        width: 100px;
+        border-radius: 10px;
+        font-size: 1.5rem;
+    }
+}
+
+
+@media screen and (max-height: 630px) {
+
+    .container>header>nav {
+        padding: 4%;
+        font-size: 1.2rem;
+    }
+
+    .container>header>nav>h1 {
+        font-size: 1.5rem;
+    }
+
+    .container>header>nav>a {
+        font-size: 1.5rem;
+    }
+
+    .container>header>.out-put-container {
+        height: 25vh;
+        padding: 5px 30px;
+    }
+
+    main {
+        height: 65%;
+    }
+
+    main>.button-container>.button-rows {
+        gap: 8%;
+
+    }
+
+    main>.button-container>.button-rows>button {
+        height: 30px;
+        width: 100px;
+        border-radius: 10px;
+        font-size: 1.2rem;
+    }
+}
